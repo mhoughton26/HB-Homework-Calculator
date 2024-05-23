@@ -118,7 +118,8 @@ function calculate() {
     const calculator = new homework_calculator();
     usr_classes = readCheckboxes(calculator);
     /*calculates total hw time and adds to html*/
-    var toDisplay = calculator.calculate_total_homework_time(usr_classes);
+    var toDisplay = "Your predicted homework time is ";
+    toDisplay += calculator.calculate_total_homework_time(usr_classes);
     toDisplay += ' minutes'
     displaySpace = document.getElementById('result');
     displaySpace.innerHTML = toDisplay;
