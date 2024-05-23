@@ -32,13 +32,15 @@ html {
 }
 
 /*these next two make the result display nicely inline with itself*/
-#PreDisplayText{
-  display:inline-block;
+.resultTimeDiv{
+  display:block;
   margin-bottom:12vh;
 }
 
 #result {
-  display:inline;
+  display:inline-block;
+  word-break:break-all;
+  margin-bottom:12vh;
 }
 
 /*these next two make the classes into two columns*/

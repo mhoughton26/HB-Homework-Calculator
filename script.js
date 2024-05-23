@@ -122,4 +122,5 @@ function calculate() {
     toDisplay += ' minutes'
     displaySpace = document.getElementById('result');
     displaySpace.innerHTML = toDisplay;
+    displaySpace.scrollIntoView();
 }
