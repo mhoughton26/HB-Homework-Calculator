@@ -113,7 +113,8 @@ class homework_calculator {
         this.cs_map.set('APComputerScienceA', 30);
         this.cs_map.set('PostAPComputerScienceHonors', 30);
         /*large array containing all maps for the purpose of iteration*/
-        this.overlord_array = [this.science_map, this.history_map, this.language_map, this.english_map, this.math_map, this.cs_map];
+        this.overlord_array = [this.science_map, this.history_map, this.french_map, this.spanish_map, this.latin_map, this.chinese_map,
+                               this.english_map, this.math_map, this.cs_map];
     }
 
     calculate_total_homework_time(usr_classes) {
