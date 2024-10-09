@@ -26,18 +26,54 @@ class homework_calculator {
         this.history_map.set('AmericanGovernment', 30);
         this.history_map.set('EconomicPolicy', 30);
         this.history_map.set('InternationalRelations', 30);
-        /*language levels*/
-        this.language_map = new Map();
-        this.language_map.set('name', 'Language');
-        this.language_map.set('1', 30);
-        this.language_map.set('2', 30);
-        this.language_map.set('3', 30);
-        this.language_map.set('3Honors', 30);
-        this.language_map.set('4', 30);
-        this.language_map.set('5/6', 30);
-        this.language_map.set('LanguageandCulture', 30);
-        this.language_map.set('AP', 30);
-        this.language_map.set('Post-AP', 30);
+        /*French classes*/
+        this.french_map = new Map();
+        this.french_map.set('name', 'French');
+        this.french_map.set('1', 30);
+        this.french_map.set('2', 30);
+        this.french_map.set('3', 30);
+        this.french_map.set('3Honors', 30);
+        this.french_map.set('4', 30);
+        this.french_map.set('LanguageandCulture', 30);
+        this.french_map.set('SpeakingCommunities', 30);
+        this.french_map.set('CivAndSoc', 30);
+        this.french_map.set('AP', 30);
+        this.french_map.set('Post-AP', 30);
+        /* spanish classes*/
+        this.spanish_map = new Map();
+        this.spanish_map.set('name', 'Spanish');
+        this.spanish_map.set('1', 30);
+        this.spanish_map.set('2', 30);
+        this.spanish_map.set('3', 30);
+        this.spanish_map.set('3Honors', 30);
+        this.spanish_map.set('4', 30);
+        this.spanish_map.set('NorthAmerica', 30);
+        this.spanish_map.set('SouthAmerica', 30);
+        this.spanish_map.set('CivAndSoc', 30);
+        this.spanish_map.set('AP', 30);
+        this.spanish_map.set('Post-AP', 30);
+        /*latin classes */
+        this.latin_map = new Map();
+        this.latin_map.set('name', 'Latin');
+        this.latin_map.set('1', 30);
+        this.latin_map.set('2', 30);
+        this.latin_map.set('3', 30);
+        this.latin_map.set('3Honors', 30);
+        this.latin_map.set('4', 30);
+        this.latin_map.set('AdvLit', 30);
+        this.latin_map.set('AP', 30);
+        /*chinese classes */
+        this.chinese_map = new Map();
+        this.chinese_map.set('name', 'Chinese');
+        this.chinese_map.set('1', 30);
+        this.chinese_map.set('2', 30);
+        this.chinese_map.set('1/2', 30);
+        this.chinese_map.set('3', 30);
+        this.chinese_map.set('3Honors', 30);
+        this.chinese_map.set('4', 30);
+        this.chinese_map.set('4Honors', 30);
+        this.chinese_map.set('AP', 30);
+        this.chinese_map.set('AdvTopics', 30);
         /*english classes*/
         this.english_map = new Map();
         this.english_map.set('name','English');
