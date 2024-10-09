@@ -47,9 +47,9 @@ class homework_calculator {
         this.spanish_map.set('3', 30);
         this.spanish_map.set('3Honors', 30);
         this.spanish_map.set('4', 30);
+        this.spanish_map.set('LanguageandCulture', 30);
         this.spanish_map.set('NorthAmerica', 30);
         this.spanish_map.set('SouthAmerica', 30);
-        this.spanish_map.set('CivAndSoc', 30);
         this.spanish_map.set('AP', 30);
         this.spanish_map.set('Post-AP', 30);
         /*latin classes */
